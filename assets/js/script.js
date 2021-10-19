@@ -1,10 +1,10 @@
-// Declare constants for DOM elements
+// jshint esversion: 6
+// Declare variables for DOM elements
 
 let humanScore = 0;
 let machineScore = 0;
 const humanScorespan = document.getElementById("human-score");
 const machineScorespan = document.getElementById("machine-score");
-const scoreFielddiv = document.querySelector(".score-field");
 const resultp = document.querySelector(".result > p");
 const rockdiv = document.getElementById("rock");
 const paperdiv = document.getElementById("paper");
@@ -40,7 +40,9 @@ function draw(humanChoice, machineChoice) {
     resultp.innerHTML = humanChoice + " equals " + machineChoice + ". Keep it draw ";
 }
 
-// Function that show in what case will player win, lose or draw
+/* Function that show in what case will player win, lose or draw 
+code credit from freeCodeCamp technical courses channel 
+*/
 function game(humanChoice) {
     let machineChoice = getMachineChoice();
     switch (humanChoice + machineChoice) {
@@ -83,7 +85,7 @@ function outsideClick(e) {
         modal.style.display = 'none';
     }
 }
-
+// event listener for control buttons
 function main() {
     rockdiv.addEventListener('click', function () {
         game("rock");

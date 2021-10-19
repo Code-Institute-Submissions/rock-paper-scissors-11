@@ -1,3 +1,4 @@
+/* google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Roboto&display=swap');
 
 * {
@@ -20,7 +21,7 @@ header>h1 {
     color: black;
     text-align: center;
 }
-
+/* Styling for score field */
 .score-field {
     margin: 30px auto;
     border: 3px solid black;
@@ -40,17 +41,17 @@ header>h1 {
     padding: 2px 10px;
     font-family: roboto;
 }
-
+/* Styling for human badge */
 #human-label {
     position: absolute;
     top: 30px;
-    left: -66px
+    left: -25px
 }
-
+/* styling for machine badge */
 #machine-label {
     position: absolute;
     top: 30px;
-    right: -76px;
+    right: -25px;
 }
 
 .result {
@@ -84,13 +85,17 @@ header>h1 {
     font-size: 30px;
 }
 
-/* Button style */
+/* styling for button badge */
+.xbutton {
+    text-align: center;
+    margin-top: 40px;
+}
+
 .button {
     font-family: roboto;
     font-size: 15px;
     line-height: 1.9;
     background: #CD201F;
-    margin: 2% 0 0 46%;
     padding: 1em 2em;
     color: #fff;
     border: 0;
@@ -101,7 +106,7 @@ header>h1 {
 .button:hover {
     background: #000;
 }
-
+/* styling for modal */
 .modal {
     display: none;
     position: fixed;
@@ -151,7 +156,7 @@ header>h1 {
     text-decoration: none;
     cursor: pointer;
 }
-
+/* styling for footer */ 
 footer {
     position: absolute;
     width: 100%;
@@ -162,7 +167,7 @@ footer {
     padding-top: 10px;
     background-color: #000;
 }
-
+/* styling for social media icons, credit for social media icon styling from Easy WebCode Youtube channel */
 .social-media ul {
     position: absolute;
     top: 50%;
@@ -220,7 +225,7 @@ footer {
 .social-media ul li:nth-child(4) a:hover {
     background-color: #CD201F;
 }
-
+/* For small screeen sizes 423px wide and down */
 @media only screen and (max-width: 423px) {
     footer {
         position: sticky;
