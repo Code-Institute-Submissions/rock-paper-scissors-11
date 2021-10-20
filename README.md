@@ -28,7 +28,7 @@ The Rock Paper Scissors is a classic interactive Java Script game that ca be pla
 ## Design
 
 **Color Scheme**
-![main-colors.png](/images-readme/main-colors.png)
+![2colors.png](assets/images/2colors.png)
 
 * Colors were sourced from [Coolors](https://coolors.co/)
 * To achieve good contrast only 4 colours were used: #FECCC3, #000000, #CD201F, #FFFFFF.
@@ -41,47 +41,52 @@ The Rock Paper Scissors is a classic interactive Java Script game that ca be pla
 
 * [Balsamiq](https://balsamiq.com/) has been used to showcase the concept of the website.
 >**Desktop version**
-![wire1.JPG](/images-readme/wire1.JPG)
-![wire2.JPG](/images-readme/wire2.JPG)
-![wire3.jpg](/images-readme/wire3.JPG)
+
+![3wire.png](assets/images/3wire.png)
+
 >**Mobile and Tablet version**
-![wiremobile1.JPG](/images-readme/wiremobile1.JPG)
-![wiremobile2.JPG](/images-readme/wiremobile2.JPG)
-![wiremobile3.JPG](/images-readme/wiremobile3.JPG)
+
+![4wire.png](assets/images/4wire.png)
 ---
 ## Features
 
 **Header**
-![header.JPG](/images-readme/header.JPG)
+![5header.png](assets/images/5header.png)
 * Featured at the top center of the page shows the game name: Rock Paper Scissors
 
 **Footer**
-![footer.JPG]()
+![6footer.png](assets/images/6footer.png)
 * The footer has been simplify with the background color black.
 * Footer contains 4 clickable social media icons with additional animation when hover over.
 * Icons are opening in new tab.
 
 **Controls**
-![]()
+![7controls.png](assets/images/7controls.png)
 * Three buttons displaying options of Rock Paper or Scissors.
 
 **Score Board**
-![]()
+![8score.png](assets/images/8score.png)
 * Score board contains actual score between Human and Machine.
 * The result score is clear to user, making the game easy to understand who won and who lost.
 
 **Game result**
-![]()
+![9result.png](assets/images/9result.png)
+![10result.png](assets/images/10result.png)
+![11result.png](assets/images/11result.png)
 * The result paragraph is clear to user, explaining each time in text what beats what or draw, Example Paper beats Rock.
 * The result paragraph shows message You won and You lost or Keep it draw.
 
+**Selection message**
+![15selection.png](assets/images/15selection.png)
+* Make your selection message located below main control buttons clearly shows user a message that encourage user to start a game.
+
 **Game Rules - Button**
-![]()
-![]()
-* Game Rules button contains Simple Game Rules information.
+![12button.png](assets/images/12button.png)
+![13window.png](assets/images/13window.png)
+* Game Rules button contains Simple Game Rules information, once clicked it opens a small window with game rules.
 
 **Reset Score - Button**
-![]()
+![14reset.png](assets/images/14reset.png)
 * Reset Score button once clicked resets both the Human and Machine score.
 ---
 
