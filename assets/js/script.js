@@ -43,8 +43,11 @@ function draw(humanChoice, machineChoice) {
 function resetScores() {
     document.getElementById('human-score').innerText = 0;
     document.getElementById('machine-score').innerText = 0;
+    humanScore = "0";
+    humanScore = 0;
+    machineScore = "0"
+    machineScore = 0;
 }
-
 
 /* Function that show in what case will player win, lose or draw 
 code credit from freeCodeCamp technical courses channel 
