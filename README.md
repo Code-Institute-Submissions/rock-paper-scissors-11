@@ -1,6 +1,6 @@
 # Rock Paper Scissors
 
-The Plan-&#8383; is a website that contains fundamental information about Bitcoin and Block Chain technology, it is intended for any user who is starting with cryptocurrency.
+The Rock Paper Scissors is a classic interactive Java Script game that ca be played by all.
 ![responsive-design.jpg](images-readme/responsive-design.jpg)
 
 
@@ -8,14 +8,13 @@ The Plan-&#8383; is a website that contains fundamental information about Bitcoi
 
 **User Stories**
 
-* As a page visitor I want to be able to navigate the website intuitively and learn more about the bitcoin and other technologies being offered.
-* As a page visitor, I want to easily find the contact information.
-* As a customer, I want to find relevant social media links on the website.
+* As a user. I want to be able to quickly understand game rules.
+* As a user, I want to easily find corresponding buttons that i need to press.
+* As a user, I want to find relevant social media links on the website.
 
 **Project Goal**
 
-* Website goal is to reach any person who is interested in cryptocurrency.
-* Important task of this website is to help in making Bitcoin more mainstream.
+* The main goal of this project is to make minimum design game that will be easy, simple and quick to play for all age groups.
 ---
 
 ## Design
@@ -24,11 +23,11 @@ The Plan-&#8383; is a website that contains fundamental information about Bitcoi
 ![main-colors.png](/images-readme/main-colors.png)
 
 * Colors were sourced from [Coolors](https://coolors.co/)
-* To achieve good contrast only 3 colours were used: #ECA506, #000000, #4CFACC.
+* To achieve good contrast only 4 colours were used: #FECCC3, #000000, #CD201F, #FFFFFF.
 
 **Typography**
 
-* The main font used in the site is "Roboto", with Sans Serif as the backup font in case Roboto is not being imported correctly. "Share Tech" is used for headings, logo, nav menu, second font was suggested by Google Fonts.
+* The main font used in the site is "Orbitron", with backup font "Roboto" in case Orbitron is not being imported correctly. Second font was suggested by Google Fonts.
 
 **Wireframes**
 
@@ -44,47 +43,38 @@ The Plan-&#8383; is a website that contains fundamental information about Bitcoi
 ---
 ## Features
 
-**Navigation**
-* Featured at the center of header, the navigation shows: Home, About, How it Works and Contact.
-* Navigation font is in a font named "Share Tech", black color has been used that contrasts with background.
-* Navigation has been simplify so the user can easly find different page sections.
-
 **Header**
 ![header.JPG](/images-readme/header.JPG)
-* Logo has been placed on upper right corner of header, same black color has been used and text size has been increased.
-* Logo contains special Bitcoin unicode.
+* Featured at the top center of the page shows the game name: Rock Paper Scissors
 
 **Footer**
-![footer.JPG](/images-readme/footer.JPG)
-* The footer has been simplify and the same background color has been used as on header.
-* Footer contains 4 clickable social media icons.
+![footer.JPG]()
+* The footer has been simplify with the background color black.
+* Footer contains 4 clickable social media icons with additional animation when hover over.
 * Icons are opening in new tab.
 
-**Landing page**
-![hero-image.JPG](/images-readme/hero-image.JPG)
-* Hero image represents separation beetween world of fiat currency and new digital era of cryptocurrency.
-* Black color is dominating in image and gives a user great contrast experience.
+**Controls**
+![]()
+*Three buttons displaying options of Rock Paper or Scissors.
 
-**Section "Home"**
-![section-home.JPG](/images-readme/section-home.JPG)
-* Shows to user hero image and partial text from section "About Bitcoin"
+**Score Board**
+![]()
+*Score board contains actual score between Human and Machine.
+*The result score is clear to user, making the game easy to understand who won and who lost.
 
-**Section "About Bitcoin"**
-![about-bitcoin.JPG](/images-readme/about-bitcoin.JPG)
-* Contains a text that explains what is Bitcoin, and includes a small image on right side so user can have a better visual experience.
+**Game result**
+![]()
+*The result paragraph is clear to user, explaining each time in text what beats what or draw, Example Paper beats Rock.
+*The result paragraph shows message You won and You lost or Keep it draw.
 
-**Section "How it Works"**
-![how-it-works1.JPG](/images-readme/how-it-works1.JPG)
-* Shows user a section that contains 3 separated text sections with fundamental information about Bitcoin basics for a new user, balances-block chain and transactions-private keys.
-![block-chain2.JPG](/images-readme/block-chain2.JPG)
-![private-keys3.JPG](/images-readme/private-keys3.JPG)
-* Each section contains eye catching image so user can have better visual experience and connection to text.
+**Game Rules - Button**
+![]()
+![]()
+*Game Rules button contains Simple Game Rules information.
 
-**Section "Contact me"**
-![contact-me.JPG](/images-readme/contact-me.JPG)
-* Directs user at the bottom of the page.
-* Contains a contact form where user can submit their details and add additional message.
-* Submit button contains eye catching bright green color.
+**Reset Score - Button**
+![]()
+*Reset Score button once clicked resets both the Human and Machine score.
 ---
 
 ## Technologies Used
@@ -92,16 +82,18 @@ The Plan-&#8383; is a website that contains fundamental information about Bitcoi
 **Languages used**
 * [HTML5](https://en.wikipedia.org/wiki/HTML5)
 * [CSS3](https://en.wikipedia.org/wiki/CSS)
+* [JS]
 
 **Programs used**
 * [GitHub](https://github.com/) Github was used to store the project.
 * [GitPod](https://www.gitpod.io/) GitPod was used for writing code.
-* [GoogleFonts](https://fonts.google.com/) Google Fonts was used to import the fonts "Roboto" and "Share Tech" into the style.css.
+* [GoogleFonts](https://fonts.google.com/) Google Fonts was used to import the fonts "Orbitron" and "Roboto" into the style.css.
 * [TinyPNG](https://tinypng.com/) TinyPng was used to reduce image size for website.
 * [FontAwesome](https://fontawesome.com/) Font Awesome was used to add icons to footer of website.
 * [ChromeDeVTools](https://developer.chrome.com/docs/devtools/) Chrome Dev Tools used during development of website and to test responsiveness.
 * [W3C HTML Validator](https://validator.w3.org/nu/) W3C HTML Validator was used to validate HTML Code.
 * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) W3C CSS Validator was used to validate CSS Code.
+* [JSHINT Validator]().
 
 ---
 ## Testing
