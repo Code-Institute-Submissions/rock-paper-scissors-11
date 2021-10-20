@@ -45,7 +45,7 @@ function resetScores() {
     document.getElementById('machine-score').innerText = 0;
     humanScore = "0";
     humanScore = 0;
-    machineScore = "0"
+    machineScore = "0";
     machineScore = 0;
 }
 
