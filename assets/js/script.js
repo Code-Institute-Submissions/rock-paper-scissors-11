@@ -40,6 +40,12 @@ function draw(humanChoice, machineChoice) {
     resultp.innerHTML = humanChoice + " equals " + machineChoice + ". Keep it draw ";
 }
 
+function resetScores() {
+    document.getElementById('human-score').innerText = 0;  
+    document.getElementById('machine-score').innerText = 0;
+ }
+
+
 /* Function that show in what case will player win, lose or draw 
 code credit from freeCodeCamp technical courses channel 
 */
