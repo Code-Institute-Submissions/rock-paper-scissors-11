@@ -1,7 +1,7 @@
 # Rock Paper Scissors
 
 The Rock Paper Scissors is a classic interactive Java Script game that ca be played by all.
-![responsive-design.jpg](images-readme/responsive-design.jpg)
+![1responsive.png](assets/images/1responsive.png)
 
 
 ## UX User Experience
