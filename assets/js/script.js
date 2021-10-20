@@ -13,39 +13,33 @@ const modal = document.querySelector('#my-modal');
 const modalBtn = document.querySelector('#modal-btn');
 const closeBtn = document.querySelector('.close');
 
-// Functions that show result (You won, You lost, Keep it draw)
+// Function that checks choice
 function getMachineChoice() {
     const choices = ['rock', 'paper', 'scissors'];
     const randomNumber = Math.floor(Math.random() * 3);
     return choices[randomNumber];
 }
-
+// Function that increases human score by one
 function win(humanChoice, machineChoice) {
     humanScore++;
     humanScorespan.innerHTML = humanScore;
-    machineScorespan.innerHTML = machineScore;
     resultp.innerHTML = humanChoice + " defeats " + machineChoice + ". You won ";
 }
-
+// Function that increases machine score by one
 function lose(humanChoice, machineChoice) {
     machineScore++;
-    humanScorespan.innerHTML = humanScore;
     machineScorespan.innerHTML = machineScore;
     resultp.innerHTML = humanChoice + " defeats " + machineChoice + ". You lost ";
 }
-
+// Function that keep result Draw
 function draw(humanChoice, machineChoice) {
-    humanScorespan.innerHTML = humanScore;
-    machineScorespan.innerHTML = machineScore;
     resultp.innerHTML = humanChoice + " equals " + machineChoice + ". Keep it draw ";
 }
-
+// Function that resets the score of human and machine to zero
 function resetScores() {
     document.getElementById('human-score').innerText = 0;
     document.getElementById('machine-score').innerText = 0;
-    humanScore = "0";
     humanScore = 0;
-    machineScore = "0";
     machineScore = 0;
 }
 
@@ -73,7 +67,7 @@ function game(humanChoice) {
     }
 }
 
-// Events
+// Event listeners to open and close modal
 modalBtn.addEventListener('click', openModal);
 closeBtn.addEventListener('click', closeModal);
 window.addEventListener('click', outsideClick);
@@ -94,7 +88,7 @@ function outsideClick(e) {
         modal.style.display = 'none';
     }
 }
-// event listener for control buttons
+// Add event listener for control buttons
 function main() {
     rockdiv.addEventListener('click', function () {
         game("rock");

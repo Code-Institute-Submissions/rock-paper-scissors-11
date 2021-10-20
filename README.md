@@ -6,11 +6,19 @@ The Rock Paper Scissors is a classic interactive Java Script game that ca be pla
 
 ## UX User Experience
 
-**User Stories**
+**User Stories Testing**
 
-* As a user. I want to be able to quickly understand game rules.
-* As a user, I want to easily find corresponding buttons that i need to press.
-* As a user, I want to find relevant social media links on the website.
+**As a user. I want to be able to quickly understand game rules.**
+* The user should be able to see and click on red button "Game rules" to read the simple game rules.
+
+**As a user, I want to easily find corresponding buttons that i need to press.**
+* The user should be able to see three square buttons on the center of the screen, buttons are clearly marked and identifiable.
+
+**As a user, I want to find relevant social media links on the website.**
+* The user should be able to see at the center bottom of the page 4 link buttons with additional hover/changing color effect for opening external social media links in new page.
+
+**AS s user, I would like to be able to reset score on the score board.**
+* The user should be able to see and click on red button "Reset Score" to reset both scores of Human and Machine.
 
 **Project Goal**
 
@@ -97,7 +105,7 @@ The Rock Paper Scissors is a classic interactive Java Script game that ca be pla
 ---
 ## Testing
 
-* I completed testing of the website page in multiple browsers: Brawe, Chrome, Firefox and also used DevTools to confirm that the project is responsive and functional.
+* I completed testing of the website page in multiple browsers: Brave, Chrome, Firefox and also used DevTools to confirm that the project is responsive and functional.
 * I tested the website on different devices and operating systems Laptop (Windows), Tablet Samsung Galaxy Tab A (Android), and Galaxy Note 20 Ultra 5G (Android). The website worked perfectly on all devices.
 * The Website was successfuly tested on [ResponsiveDesign](http://ami.responsivedesign.is/#)
 
@@ -109,7 +117,8 @@ No errors were returned when passing through the [W3C HTML Validator](https://va
 No errors were returned when passing through the[W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
 ![css-validator.JPG](/images-readme/css-validator.JPG)
 
-
+No errors were returned when passing through the [JSHINT Validator](https://jshint.com/)
+![]()
 
 **Lighthouse Report**
 
@@ -118,7 +127,7 @@ No errors were returned when passing through the[W3C CSS Validator](https://jigs
 
 ## Unresolved bugs
 
-**Google chrome dev tools shows 2 errors in console**
+**Google chrome dev tools shows 0 errors in console**
 
 
 
@@ -138,6 +147,7 @@ The live deployed site can be viewed on GitHub Pages [SirJarvis/rock-paper-sciss
 * Under the source heading select the master branch option and click save
 * The project has now been deployed and wait for approximate 10 minutes for the link to become active
 * Refresh the page and click on the link to view the live site.
+
 **Forking The Github Repository**
 
 > By forking the GitHub repository, we create a clone of the original repository in our Github account. This allows us to make modifications to the files without affecting the original repository.
@@ -146,7 +156,9 @@ These are the steps:
 * Locate the repository to be duplicated, in this case [SirJarvis/rock-paper-scissors](https://github.com/SirJarvis/rock-paper-scissors).
 * Locate and click the “Fork” button at the top of the [SirJarvis/rock-paper-scissors](https://github.com/SirJarvis/rock-paper-scissors) repository page.
 * This creates a copy of the repository in our account, allowing us to make modifications.
+
 **Making A Local Clone**
+
 * Please sign in to your GitHub account.
 * Locate the desired repository in this case [SirJarvis/rock-paper-scissors](https://github.com/SirJarvis/rock-paper-scissors).
 * Locate the “Code” button at the top of the [SirJarvis/rock-paper-scissors](https://github.com/SirJarvis/rock-paper-scissors)   repository page. Click it and copy the HTTPS link that appears.
@@ -161,29 +173,29 @@ These are the steps:
 ## Credits
 
 **Media**
->[Pixabay](https://pixabay.com/)
-* Hero-Image: https://pixabay.com/photos/digitization-currency-bitcoin-3614384/
-* Balances Block-Chain: https://pixabay.com/illustrations/blockchain-data-records-concept-4744367/
-* Transactions-Private Keys: https://pixabay.com/illustrations/euro-transformation-digital-5094279/
->[Pexels](https://www.pexels.com/)
 * The site fonts were taken from [GoogleFonts](https://fonts.google.com/)
-* Icons were sourced from [FontAwesome](https://fontawesome.com/)
+* Footer Icons were sourced from [FontAwesome](https://fontawesome.com/)
+* Footer Icon colors was sourced from [Materialui](https://materialui.co/)
 * Website colors were sourced from [Coolors](https://coolors.co/)
-* Main control button icons were sourced from[Icons8](https://icons8.com/)
+* Main control button icons were sourced from [Icons8](https://icons8.com/)
+* Favicon icon was sourced from [Flaticon](https://www.flaticon.com/)
 
 
 **Content**
-> The text for website was taken from 2 sources:
-* [Bitcoin.com](https://www.bitcoin.com/get-started/a-quick-introduction-to-bitcoin/)
-* [Bitcoin.org](https://bitcoin.org/en/how-it-works)
-* Bitcoin unicode was taken from [Unicode-table](https://unicode-table.com/en/)
 
 **Code**
-* [MDN](https://developer.mozilla.org/en-US/), [W3SCHOOLS](https://www.w3schools.com/), [STACKOVERFLOW](https://stackoverflow.com/) were used on daily basis, to better understand the code.
+* [MDN](https://developer.mozilla.org/en-US/), [W3SCHOOLS](https://www.w3schools.com/), [STACKOVERFLOW](https://stackoverflow.com/), [TRAVERSY MEDIA](https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA), [FREECODECAMP](https://www.youtube.com/c/Freecodecamp/videos), [PYTHONTUTOR](https://pythontutor.com/visualize.html#mode=edit)
+   were all used on daily basis, to better understand and write the code and it's structure.
 
 * This readme document was based on research on several readme documents such as the Code Institute's readme [Sample](https://github.com/Code-Institute-Solutions/SampleREADME).
 
 * I used the lessons learned during the Code Institute "Love Running" project to help with the structure of contact form.
+
+* I used tutorial lesson for creating special hover/color effect on footer icons from [Easy WebCode](https://www.youtube.com/c/EasyWebCode/featured)
+
+* I used tutorial lesson to create Modal from [Traversy Media](https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA)
+
+
 
 **Acknowledgements**
 
