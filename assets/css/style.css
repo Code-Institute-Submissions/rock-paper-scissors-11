@@ -22,6 +22,7 @@ header>h1 {
     color: black;
     text-align: center;
 }
+
 /* Styling for score field */
 .score-field {
     margin: 30px auto;
@@ -42,12 +43,14 @@ header>h1 {
     padding: 2px 10px;
     font-family: roboto;
 }
+
 /* Styling for human badge */
 #human-label {
     position: absolute;
     top: 30px;
     left: -25px
 }
+
 /* styling for machine badge */
 #machine-label {
     position: absolute;
@@ -88,12 +91,14 @@ header>h1 {
 }
 
 /* styling for button badge */
-.xbutton, .button-rst {
+.xbutton,
+.button-rst {
     text-align: center;
     margin-top: 20px;
 }
 
-.button, .reset-button {
+.button,
+.reset-button {
     font-family: roboto;
     font-size: 15px;
     line-height: 1.9;
@@ -105,7 +110,8 @@ header>h1 {
     cursor: pointer;
 }
 
-.button:hover, .reset-button:hover {
+.button:hover,
+.reset-button:hover {
     background: #000;
 }
 
@@ -159,7 +165,8 @@ header>h1 {
     text-decoration: none;
     cursor: pointer;
 }
-/* styling for footer */ 
+
+/* styling for footer */
 footer {
     position: absolute;
     width: 100%;
@@ -174,6 +181,7 @@ footer {
 .wlink {
     color: #fff;
 }
+
 /* styling for social media icons, credit for social media icon styling from Easy WebCode Youtube channel */
 .social-media ul {
     position: absolute;
@@ -232,6 +240,7 @@ footer {
 .social-media ul li:nth-child(4) a:hover {
     background-color: #CD201F;
 }
+
 /* For small screeen sizes 423px wide and down */
 @media only screen and (max-width: 423px) {
     footer {
