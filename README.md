@@ -1,14 +1,15 @@
 # Rock Paper Scissors
+The Rock Paper Scissors is a classic interactive Java Script game that can be played by all.
 
-The Rock Paper Scissors is a classic interactive Java Script game that ca be played by all.
 ![1responsive.png](assets/images/1responsive.png)
 
+---
 
 ## UX User Experience
 
 **User Stories Testing**
 
-**As a user. I want to be able to quickly understand game rules.**
+**As a user, I want to be able to quickly understand game rules.**
 * The user should be able to see and click on red button "Game rules" to read the simple game rules.
 
 **As a user, I want to easily find corresponding buttons that i need to press.**
@@ -20,6 +21,8 @@ The Rock Paper Scissors is a classic interactive Java Script game that ca be pla
 **AS s user, I would like to be able to reset score on the score board.**
 * The user should be able to see and click on red button "Reset Score" to reset both scores of Human and Machine.
 
+
+
 **Project Goal**
 
 * The main goal of this project is to make minimum design game that will be easy, simple and quick to play for all age groups.
@@ -28,25 +31,32 @@ The Rock Paper Scissors is a classic interactive Java Script game that ca be pla
 ## Design
 
 **Color Scheme**
+
 ![2colors.png](assets/images/2colors.png)
 
 * Colors were sourced from [Coolors](https://coolors.co/)
 * To achieve good contrast only 4 colours were used: #FECCC3, #000000, #CD201F, #FFFFFF.
 
+---
+
 **Typography**
 
 * The main font used in the site is "Orbitron", with backup font "Roboto" in case Orbitron is not being imported correctly. Second font was suggested by Google Fonts.
 
+---
+
 **Wireframes**
 
-* [Balsamiq](https://balsamiq.com/) has been used to showcase the concept of the website.
->**Desktop version**
+**[Balsamiq](https://balsamiq.com/) has been used to showcase the concept of the website.**
+
+**Desktop version**
 
 ![3wire.png](assets/images/3wire.png)
 
->**Mobile and Tablet version**
+**Mobile and Tablet version**
 
 ![4wire.png](assets/images/4wire.png)
+
 ---
 ## Features
 
@@ -117,13 +127,18 @@ The Rock Paper Scissors is a classic interactive Java Script game that ca be pla
 **Validator Testing**
 
 **No errors were returned when passing through the** [W3C HTML Validator](https://validator.w3.org/nu/)
+
 ![19html-validator.png](assets/images/19html-validator.png)
 
 **No errors were returned when passing through the** [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+
 ![18css-validator.png](assets/images/18css-validator.png)
 
 **No errors were returned when passing through the** [JSHINT Validator](https://jshint.com/)
+
 ![20js-validator.png](assets/images/20js-validator.png)
+
+---
 
 **Lighthouse Reports**
 
@@ -135,6 +150,7 @@ The Rock Paper Scissors is a classic interactive Java Script game that ca be pla
 
 ![17lighthouse-desktop.png](assets/images/17lighthouse-desktop.png)
 
+---
 
 ## Unresolved bugs
 
