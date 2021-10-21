@@ -167,7 +167,7 @@ The Rock Paper Scissors is a classic interactive Java Script game that can be pl
 
 **GitHub Pages**
 
-The live deployed site can be viewed on GitHub Pages [SirJarvis/rock-paper-scissors](https://github.com/SirJarvis/rock-paper-scissors)
+The live deployed site can be viewed here [SirJarvis/rock-paper-scissors](https://sirjarvis.github.io/rock-paper-scissors/)
 
 **The site was deployed to Github pages** 
 > These are the steps to deploy this project:
