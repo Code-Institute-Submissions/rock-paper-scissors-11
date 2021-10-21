@@ -18,7 +18,7 @@ The Rock Paper Scissors is a classic interactive Java Script game that can be pl
 **As a user, I want to find relevant social media links on the website.**
 * The user should be able to see at the center bottom of the page 4 link buttons with additional hover/changing color effect for opening external social media links in new page.
 
-**AS s user, I would like to be able to reset score on the score board.**
+**As a user, I would like to be able to reset score on the score board.**
 * The user should be able to see and click on red button "Reset Score" to reset both scores of Human and Machine.
 
 
@@ -83,12 +83,12 @@ The Rock Paper Scissors is a classic interactive Java Script game that can be pl
 ![9result.png](assets/images/9result.png)
 ![10result.png](assets/images/10result.png)
 ![11result.png](assets/images/11result.png)
-* The result paragraph is clear to user, explaining each time in text what beats what or draw, Example Paper beats Rock.
+* The result paragraph is clear to user, explaining each time in text what defeats what or is it a draw, Example: Paper beats Rock.
 * The result paragraph shows message You won and You lost or Keep it draw.
 
 **Selection message**
 ![15selection.png](assets/images/15selection.png)
-* Make your selection message located below main control buttons clearly shows user a message that encourage user to start a game.
+* Make your selection message located below main control buttons shows user a message that encourage user to start a game.
 
 **Game Rules - Button**
 ![12button.png](assets/images/12button.png)
@@ -154,7 +154,7 @@ The Rock Paper Scissors is a classic interactive Java Script game that can be pl
 
 ## Unresolved bugs
 
-**Google chrome dev tools shows 1 errors in console**
+**Google chrome dev tools shows 1 error in console**
 
 * Error with Permissions-Policy header: Unrecognized feature: 'interest-cohort'.
 
