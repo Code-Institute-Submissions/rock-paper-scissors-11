@@ -127,12 +127,18 @@ No errors were returned when passing through the [JSHINT Validator](https://jshi
 
 **Lighthouse Report**
 
-![lighthouse-report.JPG](/images-readme/lighthouse-report.JPG)
+**Lighthouse report for mobile**
+![16mobile.png](assets/images/16mobile.png)
+
+**Lighthouse report for desktop**
+![]()
 
 
 ## Unresolved bugs
 
-**Google chrome dev tools shows 0 errors in console**
+**Google chrome dev tools shows 1 errors in console**
+
+* Error with Permissions-Policy header: Unrecognized feature: 'interest-cohort'.
 
 
 
