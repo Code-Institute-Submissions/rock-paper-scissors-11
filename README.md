@@ -116,22 +116,24 @@ The Rock Paper Scissors is a classic interactive Java Script game that ca be pla
 
 **Validator Testing**
 
-No errors were returned when passing through the [W3C HTML Validator](https://validator.w3.org/nu/)
-![htmlvalidator.JPG](/images-readme/htmlvalidator.JPG)
+**No errors were returned when passing through the** [W3C HTML Validator](https://validator.w3.org/nu/)
+![19html-validator.png](assets/images/19html-validator.png)
 
-No errors were returned when passing through the[W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
-![css-validator.JPG](/images-readme/css-validator.JPG)
+**No errors were returned when passing through the** [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+![18css-validator.png](assets/images/18css-validator.png)
 
-No errors were returned when passing through the [JSHINT Validator](https://jshint.com/)
-![]()
+**No errors were returned when passing through the** [JSHINT Validator](https://jshint.com/)
+![20js-validator.png](assets/images/20js-validator.png)
 
-**Lighthouse Report**
+**Lighthouse Reports**
 
 **Lighthouse report for mobile**
-![16mobile.png](assets/images/16mobile.png)
+
+![16lighthouse-mobile.png](assets/images/16lighthouse-mobile.png)
 
 **Lighthouse report for desktop**
-![]()
+
+![17lighthouse-desktop.png](assets/images/17lighthouse-desktop.png)
 
 
 ## Unresolved bugs
@@ -210,6 +212,6 @@ These are the steps:
 
 **Acknowledgements**
 
-* My partner, for her time, patience and effort and huge support.
+* My partner, for her time, patience, effort and infinite support.
 * My mentor, Chris Quinn, for all valuable sessions, all advices and guidance.
 * Code Institute and Slack community for their help and support at any time.
